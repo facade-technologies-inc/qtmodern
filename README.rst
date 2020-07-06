@@ -8,6 +8,7 @@ found `here <https://github.com/gmarull/qtmodern>`_.
 
 In this fork, we've adapted it to have the following features:
 
+* Replaced PyQt with PySide2
 * Improved titlebar functionality: more consistent windows-like behavior, such as dragging to top maximizing the window
 * Tuned the theme colors, and added 4 other themes
 * Introduced MessageBox, a QtModern implementation of QMessageBox
