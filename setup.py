@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
-import qtmodern
+import qtmodern_facade
 from setuptools import setup
 
-_version = qtmodern.__version__
+_version = qtmodern_facade.__version__
 
-setup(name='qtmodern',
+setup(name='qtmodern_facade',
       version=_version,
-      packages=['qtmodern'],
+      packages=['qtmodern_facade'],
       description='Qt Widgets Modern User Interface',
       long_description=open('README.rst').read(),
       author='Facade Technologies',
@@ -23,6 +23,6 @@ setup(name='qtmodern',
           'Topic :: Software Development :: User Interfaces'
       ],
       package_data={
-          'qtmodern': ['resources/*']
+          'qtmodern_facade': ['resources/*']
       },
       install_requires=['PySide2==5.15.0'])
