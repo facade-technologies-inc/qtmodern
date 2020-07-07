@@ -18,7 +18,10 @@ In this fork, we've adapted it to have the following features:
 Installation
 ------------
 
-Clone or download this repository, then place it in your project.
+Clone or download this repository, start a command window at the root, and enter::
+    
+    pip install .
+    
 
 Usage
 -----
