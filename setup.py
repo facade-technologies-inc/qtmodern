@@ -5,9 +5,9 @@ from setuptools import setup
 
 _version = qtmodern_facade.__version__
 
-setup(name='qtmodern_facade',
+setup(name='qtmodern',
       version=_version,
-      packages=['qtmodern_facade'],
+      packages=['qtmodern'],
       description='Qt Widgets Modern User Interface',
       long_description=open('README.rst').read(),
       author='Facade Technologies',
@@ -25,4 +25,4 @@ setup(name='qtmodern_facade',
       package_data={
           'qtmodern_facade': ['resources/*']
       },
-      install_requires=['PySide2==5.15.0'])
+      install_requires=['PySide2>=5.15.0'])
