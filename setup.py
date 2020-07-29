@@ -23,6 +23,6 @@ setup(name='qtmodern',
           'Topic :: Software Development :: User Interfaces'
       ],
       package_data={
-          'qtmodern_facade': ['resources/*']
+          'qtmodern': ['resources/*']
       },
       install_requires=['PySide2>=5.15.0'])
