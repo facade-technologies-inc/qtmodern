@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-import qtmodern_facade
+import qtmodern
 from setuptools import setup
 
-_version = qtmodern_facade.__version__
+_version = qtmodern.__version__
 
 setup(name='qtmodern',
       version=_version,
